@@ -1,1 +1,17 @@
+h1, h2 {
+    color: blueviolet;
+}
+div > p {
+    color: firebrick ;
+}
+div li {
+    color: blue;
+}
+li.done {
+    color: green;
+}
+body ul > p.done {
+    font-size: .5rem;
+}
+
 /* Write your code here: */
