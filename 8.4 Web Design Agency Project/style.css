@@ -1,4 +1,52 @@
-@media (min-width: 769px) {
+@media (min-width: 2560px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 15px 50px 15px 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 95vh;
+  }
+  .logo {
+    width: 10%;
+  }
+  h1 {
+    font-size: 5rem;
+    margin: 0px;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  section.all-cards {
+    display: flex;
+  }
+  .card {
+    margin: 10PX;
+  }
+  img.tile-image {
+    float: left;
+    width: 50%;
+    min-width: 200px;
+    margin: 0px 20px 5px 0px;
+    border-radius: 10px;
+  }
+  span {
+    color: midnightblue;
+  }
+  footer {
+    text-align: right;
+    color: midnightblue;
+  }
+  footer > p {
+    margin: 0px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 2559px) {
   body {
     font-family: "Poppins", sans-serif;
     margin: 15px 50px 15px 50px;
@@ -45,7 +93,6 @@
     margin: 0px;
   }
 }
-
 @media (min-width: 426px) and (max-width: 768px) {
   body {
     font-family: "Poppins", sans-serif;
@@ -57,10 +104,10 @@
     min-height: 95vh;
   }
   .logo {
-    width: 10%;
+    width: 15%;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0px;
   }
   h2 {
@@ -69,17 +116,15 @@
   p {
     font-size: .85rem;
   }
-  section.all-cards {
+  .all-cards {
     display: flex;
-  }
-  .card {
-    margin: 10PX;
+    flex-direction: column;
   }
   img.tile-image {
+    width: 25%;
     float: left;
-    width: 50%;
     min-width: 200px;
-    margin: 0px 10px 5px 0px;
+    margin: 20px 10px 5px 0px;
     border-radius: 5px;
   }
   span {
@@ -94,3 +139,54 @@
   }
 }
 
+@media (max-width: 425px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 25px 50px 0 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 95vh;
+  }
+  .logo {
+    width: 25%;
+  }
+  h1 {
+    font-size: 2rem;
+    margin: 0px 0px 20px;
+  }
+  h2 {
+    font-size: 1rem;
+    margin: 10px 0px 0px;
+  }
+  p {
+    font-size: .85rem;
+    margin: 0px;
+  }
+  h1, h2, p {
+    text-align: center;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  img.tile-image {
+    width: 75%;
+    margin: 20px 0px 0px;
+    border-radius: 5px;
+  }
+  span {
+    color: midnightblue;
+  }
+  footer {
+    text-align: right;
+    color: midnightblue;
+  }
+  footer > p {
+    margin: 20px;
+  }
+}
+
+/* Notas de correção */
